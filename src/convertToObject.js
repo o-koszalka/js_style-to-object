@@ -15,7 +15,7 @@ function convertToObject(sourceString) {
       const [key, value] = item.split(':', 2);
 
       return [key.trim(), value.trim()];
-    }),
+    })
   );
 
   return sourceStringToObject;
